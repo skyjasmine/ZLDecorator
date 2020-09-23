@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965B62B2251A2E3400703E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62B1251A2E3400703E2E /* main.m */; };
+		965B62BA251A2EC700703E2E /* ZLBeverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62B9251A2EC700703E2E /* ZLBeverage.m */; };
+		965B62BD251A301800703E2E /* ZLDarkRoast.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62BC251A301800703E2E /* ZLDarkRoast.m */; };
+		965B62C0251AE58E00703E2E /* ZLCondimentDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62BF251AE58E00703E2E /* ZLCondimentDecorator.m */; };
+		965B62C3251AE62600703E2E /* ZLEspresso.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62C2251AE62600703E2E /* ZLEspresso.m */; };
+		965B62C6251AE7C300703E2E /* ZLHouseBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62C5251AE7C300703E2E /* ZLHouseBlend.m */; };
+		965B62C9251AE8E500703E2E /* ZLMocha.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62C8251AE8E500703E2E /* ZLMocha.m */; };
+		965B62CC251AEB6100703E2E /* ZLWhip.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B62CB251AEB6100703E2E /* ZLWhip.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		965B62AC251A2E3400703E2E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		965B62AE251A2E3400703E2E /* ZLDecorator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZLDecorator; sourceTree = BUILT_PRODUCTS_DIR; };
+		965B62B1251A2E3400703E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		965B62B8251A2EC700703E2E /* ZLBeverage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLBeverage.h; sourceTree = "<group>"; };
+		965B62B9251A2EC700703E2E /* ZLBeverage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLBeverage.m; sourceTree = "<group>"; };
+		965B62BB251A301800703E2E /* ZLDarkRoast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLDarkRoast.h; sourceTree = "<group>"; };
+		965B62BC251A301800703E2E /* ZLDarkRoast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLDarkRoast.m; sourceTree = "<group>"; };
+		965B62BE251AE58E00703E2E /* ZLCondimentDecorator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCondimentDecorator.h; sourceTree = "<group>"; };
+		965B62BF251AE58E00703E2E /* ZLCondimentDecorator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLCondimentDecorator.m; sourceTree = "<group>"; };
+		965B62C1251AE62600703E2E /* ZLEspresso.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLEspresso.h; sourceTree = "<group>"; };
+		965B62C2251AE62600703E2E /* ZLEspresso.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLEspresso.m; sourceTree = "<group>"; };
+		965B62C4251AE7C300703E2E /* ZLHouseBlend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLHouseBlend.h; sourceTree = "<group>"; };
+		965B62C5251AE7C300703E2E /* ZLHouseBlend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLHouseBlend.m; sourceTree = "<group>"; };
+		965B62C7251AE8E500703E2E /* ZLMocha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLMocha.h; sourceTree = "<group>"; };
+		965B62C8251AE8E500703E2E /* ZLMocha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLMocha.m; sourceTree = "<group>"; };
+		965B62CA251AEB6100703E2E /* ZLWhip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLWhip.h; sourceTree = "<group>"; };
+		965B62CB251AEB6100703E2E /* ZLWhip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLWhip.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965B62AB251A2E3400703E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965B62A5251A2E3400703E2E = {
+			isa = PBXGroup;
+			children = (
+				965B62B0251A2E3400703E2E /* ZLDecorator */,
+				965B62AF251A2E3400703E2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965B62AF251A2E3400703E2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965B62AE251A2E3400703E2E /* ZLDecorator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965B62B0251A2E3400703E2E /* ZLDecorator */ = {
+			isa = PBXGroup;
+			children = (
+				965B62B1251A2E3400703E2E /* main.m */,
+				965B62B8251A2EC700703E2E /* ZLBeverage.h */,
+				965B62B9251A2EC700703E2E /* ZLBeverage.m */,
+				965B62BB251A301800703E2E /* ZLDarkRoast.h */,
+				965B62BC251A301800703E2E /* ZLDarkRoast.m */,
+				965B62BE251AE58E00703E2E /* ZLCondimentDecorator.h */,
+				965B62BF251AE58E00703E2E /* ZLCondimentDecorator.m */,
+				965B62C1251AE62600703E2E /* ZLEspresso.h */,
+				965B62C2251AE62600703E2E /* ZLEspresso.m */,
+				965B62C4251AE7C300703E2E /* ZLHouseBlend.h */,
+				965B62C5251AE7C300703E2E /* ZLHouseBlend.m */,
+				965B62C7251AE8E500703E2E /* ZLMocha.h */,
+				965B62C8251AE8E500703E2E /* ZLMocha.m */,
+				965B62CA251AEB6100703E2E /* ZLWhip.h */,
+				965B62CB251AEB6100703E2E /* ZLWhip.m */,
+			);
+			path = ZLDecorator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965B62AD251A2E3400703E2E /* ZLDecorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965B62B5251A2E3400703E2E /* Build configuration list for PBXNativeTarget "ZLDecorator" */;
+			buildPhases = (
+				965B62AA251A2E3400703E2E /* Sources */,
+				965B62AB251A2E3400703E2E /* Frameworks */,
+				965B62AC251A2E3400703E2E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZLDecorator;
+			productName = ZLDecorator;
+			productReference = 965B62AE251A2E3400703E2E /* ZLDecorator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965B62A6251A2E3400703E2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DingTalk;
+				TargetAttributes = {
+					965B62AD251A2E3400703E2E = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 965B62A9251A2E3400703E2E /* Build configuration list for PBXProject "ZLDecorator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965B62A5251A2E3400703E2E;
+			productRefGroup = 965B62AF251A2E3400703E2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965B62AD251A2E3400703E2E /* ZLDecorator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965B62AA251A2E3400703E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B62BA251A2EC700703E2E /* ZLBeverage.m in Sources */,
+				965B62CC251AEB6100703E2E /* ZLWhip.m in Sources */,
+				965B62BD251A301800703E2E /* ZLDarkRoast.m in Sources */,
+				965B62C6251AE7C300703E2E /* ZLHouseBlend.m in Sources */,
+				965B62C3251AE62600703E2E /* ZLEspresso.m in Sources */,
+				965B62C9251AE8E500703E2E /* ZLMocha.m in Sources */,
+				965B62B2251A2E3400703E2E /* main.m in Sources */,
+				965B62C0251AE58E00703E2E /* ZLCondimentDecorator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		965B62B3251A2E3400703E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		965B62B4251A2E3400703E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		965B62B6251A2E3400703E2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		965B62B7251A2E3400703E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965B62A9251A2E3400703E2E /* Build configuration list for PBXProject "ZLDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B62B3251A2E3400703E2E /* Debug */,
+				965B62B4251A2E3400703E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965B62B5251A2E3400703E2E /* Build configuration list for PBXNativeTarget "ZLDecorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B62B6251A2E3400703E2E /* Debug */,
+				965B62B7251A2E3400703E2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965B62A6251A2E3400703E2E /* Project object */;
+}
